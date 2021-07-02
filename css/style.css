@@ -1,0 +1,76 @@
+*{
+margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+/* Inizio main */
+
+main {
+    height: calc(100% - 90px);
+}
+
+main .nav {
+    height: 100%;
+    width: 220px;
+    float: left;
+}
+
+.content {
+    height: 100%;
+    width: calc(100% - 220px);
+    float: left;
+}
+
+/* Fine main */
+
+/* Inizio footer */
+
+footer {
+    height: 90px;
+}
+
+/* Fine footer */
+
+
+/* Media query */
+
+@media screen and (max-width: 600px) {
+
+    main .nav {
+        width: 50px;
+    }
+
+    .content {
+        width: calc(100% - 50px);
+    }
+}
+
+/* Fine media query */
+
+
+/* Debug */
+
+.debug .main {
+    background-color: brown;
+}
+
+.debug .nav {
+    background-color: cyan;
+}
+
+.debug .content {
+    background-color: darkgreen;
+}
+
+.debug .player {
+    background-color: darkred;
+}
+
+/* Fine debug */
