@@ -500,6 +500,10 @@ footer {
         width: calc(100% - 50px);
     }
 
+    .upgrade {
+        width: calc(100% - 50px);
+    }
+
     .logo {
         display: none;
     }
